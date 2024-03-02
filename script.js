@@ -38,7 +38,7 @@ function addToDoTask(){
     }
     else{
         let allTaskDataString = localStorage.getItem("allTaskData");
-        if (allTaskDataString) {
+        if (allTaskDataString.length > 5) {
             const allTaskDataArr = JSON.parse(allTaskDataString);
             let lastTaskId =allTaskDataArr[allTaskDataArr.length-1].taskId;
             let newTaskData = {taskId: (lastTaskId+1), taskName:inputBox.value, taskChecked: false}
