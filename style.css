@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'popins', sans-serif;
+    box-sizing: border-box;
+}
+.container-fluid{
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2d9cc7, #2806cf);
+}
+.todo-app{
+    width: 100%;
+    background: #ffff;
+}
+.to-do-img{
+    width: 75px;
+    height: 75px;
+}
